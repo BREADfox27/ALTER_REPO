@@ -272,7 +272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5adc66b7e80b0634ca4d1d395c1ea640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5adc66b7e80b0634ca4d1d395c1ea640, type: 3}
       propertyPath: m_LocalRotation.w
@@ -349,6 +349,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5adc66b7e80b0634ca4d1d395c1ea640, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1554237165}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5adc66b7e80b0634ca4d1d395c1ea640, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1554237167}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5adc66b7e80b0634ca4d1d395c1ea640, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1554237168}
   m_SourcePrefab: {fileID: 100100000, guid: 5adc66b7e80b0634ca4d1d395c1ea640, type: 3}
 --- !u!1 &1365057084
 GameObject:
@@ -459,7 +465,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3feee13b3dcb147a3aaeacd63f6a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
+  moveSpeed: 3
+--- !u!143 &1554237167
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554237164}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1.53
+  m_Radius: 0.55
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.74, z: 0}
+--- !u!95 &1554237168
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554237164}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a231ba3db9ebf84ab9215648fdd0bb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1633825482
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +525,7 @@ GameObject:
   - component: {fileID: 1633825485}
   - component: {fileID: 1633825484}
   - component: {fileID: 1633825483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
