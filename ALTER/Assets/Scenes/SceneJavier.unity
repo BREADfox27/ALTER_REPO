@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 15358822}
   - component: {fileID: 15358823}
   m_Layer: 0
-  m_Name: Reflection Probe
+  m_Name: Reflection_Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,7 +304,7 @@ Transform:
   m_GameObject: {fileID: 15358821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -325,13 +325,13 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 25.27014, y: 5.2578297, z: 13.89609}
-  m_BoxOffset: {x: -1.9341726, y: 2.6289148, z: -1.9480448}
+  m_BoxSize: {x: 25.27014, y: 2.9561033, z: 13.89609}
+  m_BoxOffset: {x: -1.9341726, y: 1.4780517, z: -1.9480448}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 0.7058824}
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
