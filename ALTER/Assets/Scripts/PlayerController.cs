@@ -21,10 +21,7 @@ public class PlayerController : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
-        //Vector3 dir = new Vector3(h, 0, v); Victoria's Code
-
-        // Javier's Code (only line below)
-        Vector3 dir = transform.right * h + transform.forward * v;
+        Vector3 dir = new Vector3(h, 0, v);
 
         // Movimiento
         if (dir.magnitude > 0.1f)
