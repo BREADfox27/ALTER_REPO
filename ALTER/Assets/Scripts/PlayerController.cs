@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,6 +8,10 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
     private CharacterController controller;
+
+    [Header("Raycast hit")]
+    public float rayDistance = 5f;
+    public LayerMask layermask;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,6 +23,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        RayCast();
+        
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -35,5 +42,18 @@ public class PlayerController : MonoBehaviour
 
         // Parámetro Speed para el Animator
         anim.SetFloat("Speed", dir.magnitude);
+    }
+
+    void RayCast()
+    {
+        RaycastHit hit;
+        Vector3 origin = transform.position;
+        Vector3 direction = transform.forward;
+
+        if (Physics.Raycast(origin, direction, out hit, rayDistance, layermask))
+        {
+            Debug.Log("Hemos colisionado con: " + hit.collider.gameObject.name);
+            Debug.DrawLine(origin, hit.point, Color.red);
+        }
     }
 }
