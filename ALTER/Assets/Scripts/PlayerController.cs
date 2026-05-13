@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float rayDistance = 5f;
     public LayerMask layermask;
 
+    public GameObject interactiveText;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -57,9 +59,84 @@ public class PlayerController : MonoBehaviour
 
             if (hit.collider.tag == "Medicine")
             {
+                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+                }
+            }
+
+            if (hit.collider.tag == "Wool")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                    hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+                }
+            }
+
+            if (hit.collider.tag == "Police")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                }
+            }
+
+            if (hit.collider.tag == "MafiaBoss")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                }
+            }
+
+            if (hit.collider.tag == "Grandma")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                }
+            }
+
+            if (hit.collider.tag == "Pedo")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                }
+            }
+
+            if (hit.collider.tag == "Cat")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                }
+            }
+
+            if (hit.collider.tag == "Criminal")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                }
+            }
+
+            if (hit.collider.tag == "BulliedVictim")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
                 }
             }
         }
