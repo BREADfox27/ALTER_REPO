@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
     public LayerMask layermask;
 
     public GameObject interactiveText;
+    public GameObject dialoguePanel1;
+    public GameObject dialoguePanel2;
+    public GameObject dialoguePanel3;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -83,6 +86,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    dialoguePanel1.gameObject.SetActive(true);
                 }
             }
 
@@ -128,6 +132,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    dialoguePanel2.gameObject.SetActive(true);
                 }
             }
 
@@ -137,6 +142,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    dialoguePanel3.gameObject.SetActive(true);
                 }
             }
         }
