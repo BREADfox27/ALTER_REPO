@@ -54,6 +54,14 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Hemos colisionado con: " + hit.collider.gameObject.name);
             Debug.DrawLine(origin, hit.point, Color.red);
+
+            if (hit.collider.tag == "Medicine")
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+                }
+            }
         }
     }
 }
