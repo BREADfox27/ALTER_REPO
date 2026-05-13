@@ -14,6 +14,9 @@ TagManager:
   - Wool
   - Criminal
   - Police1
+  - IntTextCollider
+  - Criminal1
+  - BulliedVictim1
   layers:
   - Default
   - TransparentFX

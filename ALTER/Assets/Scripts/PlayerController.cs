@@ -17,7 +17,9 @@ public class PlayerController : MonoBehaviour
     public GameObject dialoguePanel1;
     public GameObject dialoguePanel1_1;
     public GameObject dialoguePanel2;
+    public GameObject dialoguePanel2_1;
     public GameObject dialoguePanel3;
+    public GameObject dialoguePanel3_1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,6 +52,22 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", dir.magnitude);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("IntTextCollider"))
+        {
+            interactiveText.gameObject.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("IntTextCollider"))
+        {
+            interactiveText.gameObject.SetActive(false);
+        }
+    }
+
     void RayCast()
     {
         RaycastHit hit;
@@ -63,30 +81,24 @@ public class PlayerController : MonoBehaviour
 
             if (hit.collider.tag == "Medicine")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
 
             if (hit.collider.tag == "Wool")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
 
             if (hit.collider.tag == "Police")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel1.gameObject.SetActive(true);
                 }
@@ -94,69 +106,75 @@ public class PlayerController : MonoBehaviour
 
             if (hit.collider.tag == "Police1")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
                     dialoguePanel1_1.gameObject.SetActive(true);
                 }
             }
 
             if (hit.collider.tag == "MafiaBoss")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
+                    // Thing.
                 }
             }
 
             if (hit.collider.tag == "Grandma")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
+                    // Thing.
                 }
             }
 
             if (hit.collider.tag == "Pedo")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
+                    // Thing.
                 }
             }
 
             if (hit.collider.tag == "Cat")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
+                    // Thing.
                 }
             }
 
             if (hit.collider.tag == "Criminal")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel2.gameObject.SetActive(true);
                 }
             }
 
-            if (hit.collider.tag == "BulliedVictim")
+            if (hit.collider.tag == "Criminal1")
             {
-                interactiveText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    interactiveText.gameObject.SetActive(false);
+                    dialoguePanel2_1.gameObject.SetActive(true);
+                }
+            }
+
+            if (hit.collider.tag == "BulliedVictim")
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel3.gameObject.SetActive(true);
+                }
+            }
+
+            if (hit.collider.tag == "BulliedVictim1")
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    dialoguePanel3_1.gameObject.SetActive(true);
                 }
             }
         }
