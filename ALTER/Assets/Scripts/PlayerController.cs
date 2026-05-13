@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject interactiveText;
     public GameObject dialoguePanel1;
+    public GameObject dialoguePanel1_1;
     public GameObject dialoguePanel2;
     public GameObject dialoguePanel3;
 
@@ -86,7 +87,18 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel1.gameObject.SetActive(true);
+                }
+            }
+
+            if (hit.collider.tag == "Police1")
+            {
+                interactiveText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                    dialoguePanel1_1.gameObject.SetActive(true);
                 }
             }
 
@@ -132,6 +144,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel2.gameObject.SetActive(true);
                 }
             }
@@ -142,6 +155,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel3.gameObject.SetActive(true);
                 }
             }

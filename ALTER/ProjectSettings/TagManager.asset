@@ -13,6 +13,7 @@ TagManager:
   - BulliedVictim
   - Wool
   - Criminal
+  - Police1
   layers:
   - Default
   - TransparentFX
