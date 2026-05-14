@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject cat;
 
+    public float points;
+
     public GameObject interactiveText;
     public GameObject dialoguePanel1;
     public GameObject dialoguePanel1_1;
@@ -22,12 +24,15 @@ public class PlayerController : MonoBehaviour
     public GameObject dialoguePanel2_1;
     public GameObject dialoguePanel3;
     public GameObject dialoguePanel3_1;
+    public GameObject dialoguePanel4;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         anim = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+
+        points = 0;
     }
 
     // Update is called once per frame
@@ -52,6 +57,11 @@ public class PlayerController : MonoBehaviour
 
         // Parámetro Speed para el Animator
         anim.SetFloat("Speed", dir.magnitude);
+
+        if (points == 2)
+        {
+            Debug.Log("You have 2 points.");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -65,6 +75,7 @@ public class PlayerController : MonoBehaviour
         {
             cat.gameObject.SetActive(false);
             dialoguePanel3.gameObject.SetActive(true);
+            points++;
         }
     }
 
@@ -112,7 +123,15 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "SecondDialogue1")
+            if (hit.collider.tag == "SecondDialogue1" && points == 2)
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    dialoguePanel4.gameObject.SetActive(true);
+                }
+            }
+
+            if (hit.collider.tag == "SecondDialogue1" && points != 2)
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -126,6 +145,7 @@ public class PlayerController : MonoBehaviour
                 {
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel2.gameObject.SetActive(true);
+                    points++;
                 }
             }
 
