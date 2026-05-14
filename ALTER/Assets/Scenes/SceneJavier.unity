@@ -16919,12 +16919,36 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: rayDistance
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel1
+      value: 
+      objectReference: {fileID: 2145809737}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel2
+      value: 
+      objectReference: {fileID: 1441495774}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel3
+      value: 
+      objectReference: {fileID: 820233334}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: interactiveText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 216391921}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel1_1
+      value: 
+      objectReference: {fileID: 612950443}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel2_1
+      value: 
+      objectReference: {fileID: 1980088039}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel3_1
+      value: 
+      objectReference: {fileID: 1314158927}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: layermask.m_Bits
       value: 64

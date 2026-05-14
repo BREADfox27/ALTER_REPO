@@ -825,7 +825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 200381017}
   lines:
-  - HELP!!!!!
+  - Cat.
   textSpeed: 0.1
 --- !u!114 &154853251
 MonoBehaviour:
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 116197617}
   lines:
-  - "\xBF\xBF\xBF"
+  - Hehehe...
   textSpeed: 0.1
 --- !u!114 &327356563
 MonoBehaviour:
@@ -2086,7 +2086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 2058272456}
   lines:
-  - XDXDXD
+  - (Erotic voice) Miau.
   textSpeed: 0.1
 --- !u!114 &505510740
 MonoBehaviour:
@@ -2741,7 +2741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 632980416}
   lines:
-  - ???
+  - Have you interrogated them?
   textSpeed: 0.1
 --- !u!114 &783683596
 MonoBehaviour:
@@ -3148,7 +3148,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 10722803}
   lines:
-  - Hello World!
+  - 'Detective: Good morning officer, what brings you here?'
+  - "Cop: Oh detective Hughes! Thank God you\u2019re here, I was about to call you."
+  - 'Detective: Why? What happened?'
+  - "Cop: Well, three corpses have been reported today. All murder cases. Right now,
+    we\u2019re investigating the case of Mia, a 5-year-old girl. She\u2019s been
+    found buried here behind the playground."
+  - 'Detective: Do you have any leads?'
+  - "Cop: Yes, we\u2019ve got a suspect. He\u2019s a 33-year-old male named Jeff
+    who has been accused of trying to get close to the kids around this park on several
+    occasions. Coincidentally, the day of the murder, which was three days ago, he
+    was also at the park and even tried to give candy to the victim."
+  - 'Detective: Can I interrogate him?'
+  - "Cop: Of course, he\u2019s over there."
   textSpeed: 0.1
 --- !u!114 &963039502
 MonoBehaviour:
@@ -3492,7 +3504,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: rayDistance
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: dialoguePanel1
