@@ -705,8 +705,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7967653, y: 0.93193585, z: 0.7438669}
-  m_Center: {x: 0.0057201385, y: -0.034032077, z: -0.033878326}
+  m_Size: {x: 0.7967653, y: 1.0052474, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: 0.0026236773, z: -0.033878326}
 --- !u!23 &416149729
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2869,11 +2869,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1029970298}
   lines:
-  - "Cop: The body discovered here today belonged to 13-year-old Chloe. She was found
-    beneath a pile of clothes inside a fitting room, strangled with a shirt. We currently
-    have two suspects: Rose, a 13-year-old girl who was frequently bullied by Chloe,
-    and Bryan, a 23-year-old ex-convict with a history of theft who was detained
-    at the store yesterday for stealing, among the items he stole there was Chloe\u2019s
+  - 'Cop: The body discovered here today belonged to 13-year-old Chloe. She was found
+    beneath a pile of clothes inside a fitting room, strangled with a shirt.'
+  - 'We currently have two suspects: Rose, a 13-year-old girl who was frequently
+    bullied by Chloe, and Bryan, a 23-year-old ex-convict with a history of theft
+    who was detained at the'
+  - "store yesterday for stealing, among the items he stole there was Chloe\u2019s
     necklace. Both were seen in the store around the estimated time of death."
   - "Detective: Got it. I\u2019ll go interrogate them."
   - "Cop: Don\u2019t you want to investigate the area first?"
@@ -3247,8 +3248,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7967653, y: 0.93193585, z: 0.7438669}
-  m_Center: {x: 0.0057201385, y: -0.034032077, z: -0.033878326}
+  m_Size: {x: 0.7967653, y: 1.0054977, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: 0.002748847, z: -0.033878326}
 --- !u!23 &1824736194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3413,8 +3414,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7967653, y: 0.93193585, z: 0.7438669}
-  m_Center: {x: 0.0057201385, y: -0.034032077, z: -0.033878326}
+  m_Size: {x: 0.7967653, y: 1.0054979, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: 0.0027489662, z: -0.033878326}
 --- !u!23 &2081833739
 MeshRenderer:
   m_ObjectHideFlags: 0
