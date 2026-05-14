@@ -4894,7 +4894,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 350706591}
   lines:
-  - JAJA
+  - "Detective: Hello Jeff, I\u2019m detective Hughes and I\u2019m here to interrogate
+    you if that\u2019s all right with you."
+  - "Jeff: Uhhh\u2026 Yeah, so I can get this over with, I\u2019m 100% innocent sir."
+  - 'Detective: Where were you on the 31st of October at around 19:00 pm?'
+  - 'Jeff: I was at the park. It was Halloween and I wanted to go out.'
+  - "Detective: Ok, but why go to the park and not to a bar or something? For someone
+    your age with no kids that would be far more appropriate, don\u2019t you think?"
+  - "Jeff: I guess, but going out isn\u2019t my cup of tea. I just wanted to make
+    the kids at the park happy by giving them some candy."
+  - "Jeff: I guess, but going out isn\u2019t my cup of tea. I just wanted to make
+    the kids at the park happy by giving them some candy."
+  - "Detective: I\u2019ve been told that you frequent the park and tried approaching
+    kids on multiple occasions, so this isn\u2019t just a one-off thing for Halloween.
+    It has been confirmed that you gave candy to the victim also."
+  - "Jeff: I know how bad it looks, but please believe me, I\u2019m innocent. I have
+    never done anything to any of the kids and they can tell you that. Plus, if I
+    really was out to do something like that, don\u2019t you think I would have done
+    it much sooner to not draw all this attention on to myself? It makes no sense."
+  - "Detective: One can never be sure of how a murderer\u2019s brain works, so unfortunately
+    that proves nothing. You will be taken into custody while the police gather evidence."
   textSpeed: 0.1
 --- !u!114 &1274953825
 MonoBehaviour:
