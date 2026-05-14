@@ -5,18 +5,15 @@ TagManager:
   serializedVersion: 3
   tags:
   - Medicine
-  - Police
-  - MafiaBoss
-  - Grandma
-  - Pedo
   - Cat
-  - BulliedVictim
   - Wool
-  - Criminal
-  - Police1
   - IntTextCollider
-  - Criminal1
-  - BulliedVictim1
+  - FirstDialogue1
+  - SecondDialogue1
+  - FirstDialogue2
+  - SecondDialogue2
+  - FirstDialogue3
+  - SecondDialogue3
   layers:
   - Default
   - TransparentFX

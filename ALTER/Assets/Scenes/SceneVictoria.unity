@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 235439723}
   m_Layer: 6
   m_Name: BulliedVictim
-  m_TagString: BulliedVictim
+  m_TagString: FirstDialogue3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 416149728}
   m_Layer: 6
   m_Name: Police1
-  m_TagString: Police1
+  m_TagString: SecondDialogue1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1645,7 +1645,7 @@ GameObject:
   - component: {fileID: 887911388}
   m_Layer: 6
   m_Name: Police
-  m_TagString: Police
+  m_TagString: FirstDialogue1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2646,7 +2646,7 @@ GameObject:
   - component: {fileID: 1514420783}
   m_Layer: 6
   m_Name: Criminal
-  m_TagString: Criminal
+  m_TagString: FirstDialogue2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3159,7 +3159,7 @@ GameObject:
   - component: {fileID: 1824736193}
   m_Layer: 6
   m_Name: Criminal1
-  m_TagString: Criminal1
+  m_TagString: SecondDialogue2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3325,7 +3325,7 @@ GameObject:
   - component: {fileID: 2081833738}
   m_Layer: 6
   m_Name: BulliedVictim1
-  m_TagString: BulliedVictim1
+  m_TagString: SecondDialogue3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3489,6 +3489,6 @@ SceneRoots:
   - {fileID: 1633825486}
   - {fileID: 494312978}
   - {fileID: 1930311382}
-  - {fileID: 153764402}
   - {fileID: 2096641534}
+  - {fileID: 153764402}
   - {fileID: 240474904}

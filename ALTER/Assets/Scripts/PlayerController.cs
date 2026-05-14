@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "Police")
+            if (hit.collider.tag == "FirstDialogue1")
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "Police1")
+            if (hit.collider.tag == "SecondDialogue1")
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -112,39 +112,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "MafiaBoss")
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    // Thing.
-                }
-            }
-
-            if (hit.collider.tag == "Grandma")
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    // Thing.
-                }
-            }
-
-            if (hit.collider.tag == "Pedo")
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    // Thing.
-                }
-            }
-
-            if (hit.collider.tag == "Cat")
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    // Thing.
-                }
-            }
-
-            if (hit.collider.tag == "Criminal")
+            if (hit.collider.tag == "FirstDialogue2")
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -153,7 +121,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "Criminal1")
+            if (hit.collider.tag == "SecondDialogue2")
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -161,7 +129,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "BulliedVictim")
+            if (hit.collider.tag == "FirstDialogue3")
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -170,7 +138,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (hit.collider.tag == "BulliedVictim1")
+            if (hit.collider.tag == "SecondDialogue3")
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
