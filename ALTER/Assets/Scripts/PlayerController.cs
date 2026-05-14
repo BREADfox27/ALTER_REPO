@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float rayDistance = 5f;
     public LayerMask layermask;
 
+    public GameObject cat;
+
     public GameObject interactiveText;
     public GameObject dialoguePanel1;
     public GameObject dialoguePanel1_1;
@@ -57,6 +59,12 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("IntTextCollider"))
         {
             interactiveText.gameObject.SetActive(true);
+        }
+
+        if (other.CompareTag("Cat"))
+        {
+            cat.gameObject.SetActive(false);
+            dialoguePanel3.gameObject.SetActive(true);
         }
     }
 
