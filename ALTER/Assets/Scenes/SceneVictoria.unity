@@ -705,8 +705,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.7967653, y: 0.93193585, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: -0.034032077, z: -0.033878326}
 --- !u!23 &416149729
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1900,7 +1900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027919485}
   - component: {fileID: 1027919486}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wool1
   m_TagString: IntTextCollider
   m_Icon: {fileID: 0}
@@ -3157,7 +3157,6 @@ GameObject:
   - component: {fileID: 1824736195}
   - component: {fileID: 1824736194}
   - component: {fileID: 1824736193}
-  - component: {fileID: 1824736192}
   m_Layer: 6
   m_Name: Criminal1
   m_TagString: Criminal1
@@ -3180,18 +3179,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2096641534}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1824736192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824736190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 974fe56c305d7e9489fb4743d7bb58a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeactivateObject
 --- !u!65 &1824736193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3211,8 +3198,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.7967653, y: 0.93193585, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: -0.034032077, z: -0.033878326}
 --- !u!23 &1824736194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3336,7 +3323,6 @@ GameObject:
   - component: {fileID: 2081833740}
   - component: {fileID: 2081833739}
   - component: {fileID: 2081833738}
-  - component: {fileID: 2081833737}
   m_Layer: 6
   m_Name: BulliedVictim1
   m_TagString: BulliedVictim1
@@ -3359,18 +3345,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 153764402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2081833737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081833735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 974fe56c305d7e9489fb4743d7bb58a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeactivateObject
 --- !u!65 &2081833738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3390,8 +3364,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.7967653, y: 0.93193585, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: -0.034032077, z: -0.033878326}
 --- !u!23 &2081833739
 MeshRenderer:
   m_ObjectHideFlags: 0
