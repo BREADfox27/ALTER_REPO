@@ -4002,7 +4002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 2141293120}
   lines:
-  - ???
+  - Have you interrogated them?
   textSpeed: 0.1
 --- !u!114 &612950446
 MonoBehaviour:
@@ -9506,7 +9506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1158530661}
   lines:
-  - XDXDXD
+  - Oh honey, you are very thin. Eat something.
   textSpeed: 0.1
 --- !u!114 &1314158930
 MonoBehaviour:
@@ -16461,7 +16461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 469119705}
   lines:
-  - "\xBF\xBF\xBF"
+  - I'm gonna make you an offer you can't reffuse.
   textSpeed: 0.1
 --- !u!114 &1980088042
 MonoBehaviour:
@@ -17542,7 +17542,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1901448249}
   lines:
-  - Hello World!
+  - 'Cop: The victim here was Walter, a 73-year-old male. He was found inside the
+    trashcan with multiple stab wounds. The knife has not been found.'
+  - Our suspects are Carlo, a man who he owed a lot of money to, and Gertrude, his
+    wife. The murder happened around midnight and there was no one around.
   textSpeed: 0.1
 --- !u!114 &2145809740
 MonoBehaviour:
