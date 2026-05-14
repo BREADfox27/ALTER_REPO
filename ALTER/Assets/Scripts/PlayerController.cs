@@ -102,6 +102,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -110,6 +111,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    interactiveText.gameObject.SetActive(false);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -163,6 +165,7 @@ public class PlayerController : MonoBehaviour
                 {
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel3.gameObject.SetActive(true);
+                    points++;
                 }
             }
 

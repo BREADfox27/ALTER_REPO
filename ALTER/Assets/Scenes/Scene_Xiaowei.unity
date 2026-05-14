@@ -948,7 +948,7 @@ MonoBehaviour:
   - Before going back to the cop, you notice a cat right next to the burial site.
     You try to catch it because it seems lost but it escaped,
   - leaving behind a collar with the name Coco on it.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &154853251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   dialogueText: {fileID: 116197617}
   lines:
   - Hehehe...
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &327356563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2257,7 +2257,7 @@ MonoBehaviour:
   dialogueText: {fileID: 2058272456}
   lines:
   - (Erotic voice) Miau.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &505510740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2964,7 +2964,7 @@ MonoBehaviour:
   dialogueText: {fileID: 632980416}
   lines:
   - Have you interrogated them?
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &783683596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3188,14 +3188,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1455653568}
   lines:
-  - 'Detective: He denies the accusations. He has to be taken into custody and you
-    have to figure out if the candy contained any substance and interrogate the children
-    about him.'
+  - 'Detective: He denies the accusations.'
+  - He has to be taken into custody and you have to figure out if the candy contained
+    any substance and interrogate the children about him.
   - "Cop: Got it. While my subordinates take care of that, we can head over to Willow
-    Boutique at the mall. That\u2019s where the second corpse has been found. I will
-    tell you more about it when we get there."
+    Boutique at the mall. That\u2019s where the second corpse has been found."
+  - I will tell you more about it when we get there.
   - "Detective: Let\u2019s get going then."
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &859614002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3635,7 +3635,7 @@ MonoBehaviour:
     at the park and even tried to give candy to the victim.
   - 'Detective: Can I interrogate him?'
   - "Cop: Of course, he\u2019s over there."
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &963039502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5324,7 +5324,7 @@ MonoBehaviour:
     makes no sense."
   - "Detective: One can never be sure of how a murderer\u2019s brain works, so unfortunately
     that proves nothing. You will be taken into custody while the police gather evidence."
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1274953825
 MonoBehaviour:
   m_ObjectHideFlags: 0
