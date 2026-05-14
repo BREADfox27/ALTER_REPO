@@ -612,8 +612,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 954250881}
   lines:
-  - "\xBF\xBF\xBF"
-  textSpeed: 0.1
+  - (Gives you a "not so friendly" look).
+  textSpeed: 0.05
 --- !u!114 &382168642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,8 +1454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1148448564}
   lines:
-  - ???
-  textSpeed: 0.1
+  - Have you interrogated them?
+  textSpeed: 0.05
 --- !u!114 &796791613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2591,8 +2591,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 837247994}
   lines:
-  - HELP!!!!!
-  textSpeed: 0.1
+  - "Detective: Hello Rose, I\u2019m detective Hughes and I\u2019m here to interrogate
+    you if that\u2019s ok with you."
+  - "Rose: Ummm\u2026 Sure I guess."
+  - 'Detective: You went shopping at the same time as Chloe yesterday. Did something
+    happen?'
+  - 'Rose: She saw me and started laughing. Same as always.'
+  - 'Detective: That led to an argument?'
+  - "Rose: Yes. I told her to stop. She called me pathetic. I told her she\u2019d
+    regret it one day, and now\u2026 she\u2019s dead."
+  - "Detective: That\u2019s a very odd thing to say given the situation."
+  - "Rose: I didn\u2019t kill her."
+  - 'Detective: After the argument, what did you do?'
+  - "Rose: I left the store because I was shaking. I didn\u2019t want to be near
+    her anymore. I needed air."
+  - 'Detective: And?'
+  - "Rose: I came back into the store. My shopping bag was still inside. I\u2019d
+    left it in one of the aisles when we argued. I went back to get it while she
+    was inside the fitting room."
+  - 'Detective: So you went back in right as she was being killed. That puts you
+    in a very tight window of time.'
+  - "Rose: I didn\u2019t do anything."
+  - "Detective: We\u2019ll see. Hand over your phone. It should help confirm your
+    statement."
+  - 'Rose: ...Fine'
+  textSpeed: 0.05
 --- !u!114 &1509045355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2846,8 +2869,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1029970298}
   lines:
-  - Hello World!
-  textSpeed: 0.1
+  - "Cop: The body discovered here today belonged to 13-year-old Chloe. She was found
+    beneath a pile of clothes inside a fitting room, strangled with a shirt. We currently
+    have two suspects: Rose, a 13-year-old girl who was frequently bullied by Chloe,
+    and Bryan, a 23-year-old ex-convict with a history of theft who was detained
+    at the store yesterday for stealing, among the items he stole there was Chloe\u2019s
+    necklace. Both were seen in the store around the estimated time of death."
+  - "Detective: Got it. I\u2019ll go interrogate them."
+  - "Cop: Don\u2019t you want to investigate the area first?"
+  - 'Detective: Sure.'
+  textSpeed: 0.05
 --- !u!1 &1633825482
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,8 +3043,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1498740093}
   lines:
-  - JAJA
-  textSpeed: 0.1
+  - "Detective: Bryan, I\u2019m Detective Hughes. I\u2019m going to need to speak
+    with you for a moment."
+  - 'Bryan: Ok.'
+  - "Detective: You were detained for stealing in this store yesterday. One of the
+    items was the victim\u2019s gold necklace. Anything to say about that?"
+  - "Bryan: Nah, not really. I\u2019m innocent. I know nothing about that."
+  - "Detective: We\u2019re talking about a murder here. I need you to be more serious."
+  - "Bryan: Ok man, relax. I\u2019m telling you; I didn\u2019t steal from her or
+    kill her."
+  - 'Detective: Then why did you have the necklace on you?'
+  - "Bryan: I don\u2019t know. Maybe someone else put it there."
+  - 'Detective: Like who?'
+  - "Bryan: Maybe it was that girl over there, she was there when I was and she\u2019s
+    kind of weird."
+  - "Detective: That\u2019s a bold claim."
+  - "Bryan: I mean, she\u2019s the only other suspect, so who else then?"
+  - "Detective: Seems like you\u2019re shifting the blame."
+  - "Bryan: I swear on my life man, it wasn\u2019t me."
+  - "Detective: We\u2019ll see."
+  textSpeed: 0.05
 --- !u!114 &1669149307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3105,8 +3154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 795267794}
   lines:
-  - XDXDXD
-  textSpeed: 0.1
+  - What???
+  textSpeed: 0.05
 --- !u!114 &1795073992
 MonoBehaviour:
   m_ObjectHideFlags: 0
