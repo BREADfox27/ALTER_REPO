@@ -119,6 +119,8 @@ public class PlayerController : MonoBehaviour
                 {
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel5.gameObject.SetActive(true);
+                    leadsButton.gameObject.SetActive(true);
+                    lead.gameObject.SetActive(true);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -129,6 +131,8 @@ public class PlayerController : MonoBehaviour
                 {
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel5.gameObject.SetActive(true);
+                    leadsButton.gameObject.SetActive(true);
+                    lead.gameObject.SetActive(true);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
