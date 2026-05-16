@@ -662,12 +662,12 @@ GameObject:
   m_Component:
   - component: {fileID: 408936300}
   m_Layer: 0
-  m_Name: PlaceHolderCat
+  m_Name: PlaceHolderCollar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &408936300
 Transform:
   m_ObjectHideFlags: 0
@@ -804,6 +804,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: cat
+      value: 
+      objectReference: {fileID: 408936299}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: collar
       value: 
       objectReference: {fileID: 408936299}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
