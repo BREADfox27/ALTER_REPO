@@ -2362,6 +2362,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ee1112f61375e6246a3e6834b3fd62d3, type: 3}
   m_PrefabInstance: {fileID: 535192207}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &578005903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578005904}
+  m_Layer: 0
+  m_Name: PlaceholderDP5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &578005904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578005903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.33854, y: 0, z: 0.04627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &615102104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4062,6 +4093,10 @@ PrefabInstance:
       propertyPath: dialoguePanel4
       value: 
       objectReference: {fileID: 859613999}
+    - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
+      propertyPath: dialoguePanel5
+      value: 
+      objectReference: {fileID: 578005903}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: interactiveText
       value: 
@@ -7868,3 +7903,4 @@ SceneRoots:
   - {fileID: 941675939}
   - {fileID: 898629589}
   - {fileID: 958343603}
+  - {fileID: 578005904}

@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     public GameObject dialoguePanel3;
     public GameObject dialoguePanel3_1;
     public GameObject dialoguePanel4;
+    public GameObject dialoguePanel5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -81,7 +82,6 @@ public class PlayerController : MonoBehaviour
         {
             cat.gameObject.SetActive(false);
             dialoguePanel3.gameObject.SetActive(true);
-            points++;
         }
     }
 
@@ -109,6 +109,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    dialoguePanel5.gameObject.SetActive(true);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -118,6 +119,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactiveText.gameObject.SetActive(false);
+                    dialoguePanel5.gameObject.SetActive(true);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
