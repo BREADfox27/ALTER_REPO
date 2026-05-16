@@ -15,6 +15,7 @@ TagManager:
   - FirstDialogue3
   - SecondDialogue3
   - PlusOne
+  - Collar
   layers:
   - Default
   - TransparentFX

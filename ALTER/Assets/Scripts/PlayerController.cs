@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public float rayDistance = 5f;
     public LayerMask layermask;
 
-    public GameObject cat;
+    public GameObject collar;
 
     public float points;
 
@@ -80,7 +80,8 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("Cat"))
         {
-            cat.gameObject.SetActive(false);
+            other.gameObject.SetActive(false);
+            collar.gameObject.SetActive(true);
             dialoguePanel3.gameObject.SetActive(true);
         }
     }
@@ -120,6 +121,16 @@ public class PlayerController : MonoBehaviour
                 {
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel5.gameObject.SetActive(true);
+                    hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+                }
+            }
+
+            if (hit.collider.tag == "Collar")
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactiveText.gameObject.SetActive(false);
+                    dialoguePanel3_1.gameObject.SetActive(true);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
