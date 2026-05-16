@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+        Cursor.lockState = CursorLockMode.Locked;
 
         points = 0;
     }
