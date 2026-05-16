@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     public GameObject victimProfile;
     public GameObject suspectProfile1;
     public GameObject suspectProfile2;
+    public GameObject leadsButton;
+    public GameObject lead;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -137,6 +139,8 @@ public class PlayerController : MonoBehaviour
                 {
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel3_1.gameObject.SetActive(true);
+                    leadsButton.gameObject.SetActive(true);
+                    lead.gameObject.SetActive(true);
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
