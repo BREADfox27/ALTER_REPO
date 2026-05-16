@@ -812,7 +812,7 @@ PrefabInstance:
       objectReference: {fileID: 408936299}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: rayDistance
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: dialoguePanel1

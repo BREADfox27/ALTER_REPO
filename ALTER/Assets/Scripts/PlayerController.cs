@@ -12,10 +12,7 @@ public class PlayerController : MonoBehaviour
     public float rayDistance = 5f;
     public LayerMask layermask;
 
-    public GameObject collar;
-
-    public float points;
-
+    [Header("Dialogues")]
     public GameObject interactiveText;
     public GameObject dialoguePanel1;
     public GameObject dialoguePanel1_1;
@@ -25,6 +22,15 @@ public class PlayerController : MonoBehaviour
     public GameObject dialoguePanel3_1;
     public GameObject dialoguePanel4;
     public GameObject dialoguePanel5;
+
+    public GameObject collar;
+
+    public float points;
+
+    [Header("Folder")]
+    public GameObject victimProfile;
+    public GameObject suspectProfile1;
+    public GameObject suspectProfile2;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -141,6 +147,7 @@ public class PlayerController : MonoBehaviour
                 {
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel1.gameObject.SetActive(true);
+                    victimProfile.gameObject.SetActive(true);
                 }
             }
 
@@ -166,6 +173,7 @@ public class PlayerController : MonoBehaviour
                 {
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel2.gameObject.SetActive(true);
+                    suspectProfile1.gameObject.SetActive(true);
                     points++;
                 }
             }
@@ -184,6 +192,7 @@ public class PlayerController : MonoBehaviour
                 {
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                     dialoguePanel3.gameObject.SetActive(true);
+                    suspectProfile2.gameObject.SetActive(true);
                     points++;
                 }
             }
