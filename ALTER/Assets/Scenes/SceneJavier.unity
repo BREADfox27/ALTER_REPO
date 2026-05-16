@@ -674,7 +674,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -3323,7 +3323,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -3456,7 +3456,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -3589,7 +3589,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -4904,7 +4904,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Wool
         m_Mode: 1
@@ -5363,7 +5363,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Suspects
         m_Mode: 1
@@ -6670,7 +6670,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -7415,7 +7415,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Carlo
         m_Mode: 1
@@ -7589,20 +7589,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63f0d3408532b543820a2f8d82ab6d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonManager
-  victims: {fileID: 0}
-  suspects: {fileID: 0}
-  leads: {fileID: 0}
-  miaProfile: {fileID: 0}
-  chloeProfile: {fileID: 0}
-  walterProfile: {fileID: 0}
-  jeffProfile: {fileID: 0}
-  roseProfile: {fileID: 0}
-  bryanProfile: {fileID: 0}
-  carloProfile: {fileID: 0}
-  gertrudeProfile: {fileID: 0}
-  collarProfile: {fileID: 0}
-  woolProfile: {fileID: 0}
-  pillsProfile: {fileID: 0}
+  victims: {fileID: 165961578}
+  suspects: {fileID: 1313763497}
+  leads: {fileID: 1476524657}
+  miaProfile: {fileID: 460673444}
+  chloeProfile: {fileID: 1098590945}
+  walterProfile: {fileID: 1445906835}
+  jeffProfile: {fileID: 646869335}
+  roseProfile: {fileID: 1514993249}
+  bryanProfile: {fileID: 147544484}
+  carloProfile: {fileID: 1153926519}
+  gertrudeProfile: {fileID: 276113345}
+  collarProfile: {fileID: 803665895}
+  woolProfile: {fileID: 1438196300}
+  pillsProfile: {fileID: 278408683}
 --- !u!1 &680178218
 GameObject:
   m_ObjectHideFlags: 0
@@ -8114,7 +8114,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Rose
         m_Mode: 1
@@ -8247,7 +8247,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Walter
         m_Mode: 1
@@ -11646,7 +11646,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Jeff
         m_Mode: 1
@@ -11849,7 +11849,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Chloe
         m_Mode: 1
@@ -12233,7 +12233,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -12928,7 +12928,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -13273,7 +13273,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Leads
         m_Mode: 1
@@ -14019,7 +14019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Victims
         m_Mode: 1
@@ -14494,7 +14494,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Pills
         m_Mode: 1
@@ -14791,7 +14791,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -15487,7 +15487,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Collar
         m_Mode: 1
@@ -16308,7 +16308,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Mia
         m_Mode: 1
@@ -16769,7 +16769,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Gertrude
         m_Mode: 1
@@ -20104,7 +20104,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -23358,7 +23358,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Bryan
         m_Mode: 1
@@ -23491,7 +23491,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 671671758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -24905,7 +24905,7 @@ PrefabInstance:
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: victimProfile
       value: 
-      objectReference: {fileID: 1445906835}
+      objectReference: {fileID: 710511628}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: dialoguePanel1
       value: 
@@ -24933,11 +24933,11 @@ PrefabInstance:
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: suspectProfile1
       value: 
-      objectReference: {fileID: 1153926519}
+      objectReference: {fileID: 661531653}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: suspectProfile2
       value: 
-      objectReference: {fileID: 276113345}
+      objectReference: {fileID: 1460621999}
     - target: {fileID: 17184204964125690, guid: 63b9d2ab2dd7c6c43a29f4595ea6eb0f, type: 3}
       propertyPath: dialoguePanel1_1
       value: 
