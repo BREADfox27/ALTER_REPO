@@ -612,7 +612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 954250881}
   lines:
-  - (Gives you a "not so friendly" look).
+  - 'Bryan: (Gives you a "not so friendly" look).'
   textSpeed: 0.05
 --- !u!114 &382168642
 MonoBehaviour:
@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1148448564}
   lines:
-  - Have you interrogated them?
+  - 'Cop: Have you interrogated them?'
   textSpeed: 0.05
 --- !u!114 &796791613
 MonoBehaviour:
@@ -2791,6 +2791,7 @@ MonoBehaviour:
   - "Detective: We\u2019ll see. Hand over your phone. It should help confirm your
     statement."
   - 'Rose: ...Fine'
+  - "*Rose\u2019s profile has been added to your suspects folder*."
   textSpeed: 0.05
 --- !u!114 &1509045355
 MonoBehaviour:
@@ -3053,8 +3054,7 @@ MonoBehaviour:
   - "store yesterday for stealing, among the items he stole there was Chloe\u2019s
     necklace. Both were seen in the store around the estimated time of death."
   - "Detective: Got it. I\u2019ll go interrogate them."
-  - "Cop: Don\u2019t you want to investigate the area first?"
-  - 'Detective: Sure.'
+  - "*Chloe\u2019s profile has been added to your victims folder*."
   textSpeed: 0.05
 --- !u!1 &1633825482
 GameObject:
@@ -3239,6 +3239,7 @@ MonoBehaviour:
   - "Detective: Seems like you\u2019re shifting the blame."
   - "Bryan: I swear on my life man, it wasn\u2019t me."
   - "Detective: We\u2019ll see."
+  - "*Bryan\u2019s profile has been added to your suspects folder*."
   textSpeed: 0.05
 --- !u!114 &1669149307
 MonoBehaviour:
@@ -3331,7 +3332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 795267794}
   lines:
-  - What???
+  - 'Rose: What???'
   textSpeed: 0.05
 --- !u!114 &1795073992
 MonoBehaviour:

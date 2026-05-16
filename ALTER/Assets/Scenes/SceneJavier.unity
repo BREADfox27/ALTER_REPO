@@ -4095,7 +4095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 2141293120}
   lines:
-  - Have you interrogated them?
+  - 'Cop: Have you interrogated them?'
   textSpeed: 0.05
 --- !u!114 &612950446
 MonoBehaviour:
@@ -9631,7 +9631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1158530661}
   lines:
-  - Oh honey, you are very thin. Eat something.
+  - 'Gertrude: Oh honey, you are very thin. Eat something.'
   textSpeed: 0.05
 --- !u!114 &1314158930
 MonoBehaviour:
@@ -10482,7 +10482,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 2072363438}
   lines:
-  - TEXT
+  - "Detevtive: Carlo, I\u2019m Detective Hughes. I need to ask you a few questions
+    about Walter."
+  - 'Carlo: Sure.'
+  - 'Detective: You were owed a lot of money by the victim.'
+  - "Carlo: That\u2019s true, enough to be annoying."
+  - 'Detective: Annoying enough to stab him to death?'
+  - 'Carlo: If I killed every person who owed me money, this city would be empty.'
+  - 'Detective: What a fascinating answer.'
+  - 'Carlo: You asked.'
+  - 'Detective: When was the last time you saw Walter?'
+  - 'Carlo: Yesterday afternoon.'
+  - 'Detective: What happened?'
+  - 'Carlo: I asked for my money. He told me he needed more time.'
+  - 'Detective: Did the conversation get heated?'
+  - "Carlo: A little. He yelled. I yelled. That\u2019s it."
+  - 'Detective: Residents reported hearing threats.'
+  - 'Carlo: People exaggerate.'
+  - 'Detective: Did you threaten him?'
+  - "Carlo: I told him debts don\u2019t disappear into thin air."
+  - 'Detective: Sounds threatening to me.'
+  - 'Carlo: Depends how sensitive you are.'
+  - 'Detective: Walter was stabbed multiple times and stuffed into a trashcan. Most
+    people would be at least a little disturbed.'
+  - 'Carlo: Should I pretend to be?'
+  - 'Detective: No. I just find your attitude interesting.'
+  - "Carlo: You can find whatever you want, detective. Doesn\u2019t make me a killer."
+  - 'Detective: You had motive, no alibi, and witnesses heard you threatening the
+    victim. Until we prove otherwise, you remain a suspect.'
+  - "*Carlo\u2019s profile has been added to your suspects folder*."
   textSpeed: 0.05
 --- !u!114 &1441495777
 MonoBehaviour:
@@ -16586,7 +16614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 469119705}
   lines:
-  - I'm gonna make you an offer you can't reffuse.
+  - 'Carlo: I''m gonna make you an offer you can''t reffuse.'
   textSpeed: 0.05
 --- !u!114 &1980088042
 MonoBehaviour:
@@ -17815,6 +17843,7 @@ MonoBehaviour:
     trashcan with multiple stab wounds. The knife has not been found.'
   - Our suspects are Carlo, a man who he owed a lot of money to, and Gertrude, his
     wife. The murder happened around midnight and there was no one around.
+  - "*Walter\u2019s profile has been added to your victims folder*."
   textSpeed: 0.05
 --- !u!114 &2145809740
 MonoBehaviour:

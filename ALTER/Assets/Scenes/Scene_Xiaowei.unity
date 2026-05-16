@@ -945,9 +945,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 200381017}
   lines:
-  - Before going back to the cop, you notice a cat right next to the burial site.
-    You try to catch it because it seems lost but it escaped,
-  - leaving behind a collar with the name Coco on it.
+  - You notice a cat walking around. You try to catch it because it seems lost but
+    it escaped, leaving behind a collar with the name Coco on it.
+  - '*Cat collar has been added to your leads folder*'
   textSpeed: 0.05
 --- !u!114 &154853251
 MonoBehaviour:
@@ -1506,7 +1506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 116197617}
   lines:
-  - Hehehe...
+  - 'Jeff: Hehehe...'
   textSpeed: 0.05
 --- !u!114 &327356563
 MonoBehaviour:
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 2058272456}
   lines:
-  - (Erotic voice) Miau.
+  - 'Cat: (Erotic voice) Miau.'
   textSpeed: 0.05
 --- !u!114 &505510740
 MonoBehaviour:
@@ -2963,7 +2963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 632980416}
   lines:
-  - Have you interrogated them?
+  - 'Cop: Have you interrogated them?'
   textSpeed: 0.05
 --- !u!114 &783683596
 MonoBehaviour:
@@ -3635,6 +3635,7 @@ MonoBehaviour:
     at the park and even tried to give candy to the victim.
   - 'Detective: Can I interrogate him?'
   - "Cop: Of course, he\u2019s over there."
+  - "*Mia\u2019s profile has been added to your victims folder*."
   textSpeed: 0.05
 --- !u!114 &963039502
 MonoBehaviour:
@@ -5312,8 +5313,6 @@ MonoBehaviour:
     your age with no kids that would be far more appropriate, don\u2019t you think?"
   - "Jeff: I guess, but going out isn\u2019t my cup of tea. I just wanted to make
     the kids at the park happy by giving them some candy."
-  - "Jeff: I guess, but going out isn\u2019t my cup of tea. I just wanted to make
-    the kids at the park happy by giving them some candy."
   - "Detective: I\u2019ve been told that you frequent the park and tried approaching
     kids on multiple occasions, so this isn\u2019t just a one-off thing for Halloween."
   - It has been confirmed that you gave candy to the victim also.
@@ -5324,6 +5323,7 @@ MonoBehaviour:
     makes no sense."
   - "Detective: One can never be sure of how a murderer\u2019s brain works, so unfortunately
     that proves nothing. You will be taken into custody while the police gather evidence."
+  - "*Jeff\u2019s profile has been added to your suspects folder*."
   textSpeed: 0.05
 --- !u!114 &1274953825
 MonoBehaviour:
