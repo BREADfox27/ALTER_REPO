@@ -71,6 +71,12 @@ public class PlayerController : MonoBehaviour
             interactiveText.gameObject.SetActive(true);
         }
 
+        if (other.CompareTag("PlusOne"))
+        {
+            points++;
+            other.gameObject.SetActive(false);
+        }
+
         if (other.CompareTag("Cat"))
         {
             cat.gameObject.SetActive(false);

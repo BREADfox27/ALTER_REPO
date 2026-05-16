@@ -14,6 +14,7 @@ TagManager:
   - SecondDialogue2
   - FirstDialogue3
   - SecondDialogue3
+  - PlusOne
   layers:
   - Default
   - TransparentFX
