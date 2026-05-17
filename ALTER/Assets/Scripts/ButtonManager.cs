@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -109,5 +110,15 @@ public class ButtonManager : MonoBehaviour
     public void Pills()
     {
         pillsProfile.SetActive(true);
+    }
+
+    public void GoodEnding()
+    {
+        SceneManager.LoadScene("GoodEndScene");
+    }
+
+    public void BadEnding()
+    {
+        SceneManager.LoadScene("BadEndScene");
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
     private CharacterController controller;
+
+    public GameObject arrow;
 
     [Header("Raycast hit")]
     public float rayDistance = 5f;
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
     public GameObject suspectProfile2;
     public GameObject leadsButton;
     public GameObject lead;
+    public GameObject guiltyMenu;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -91,6 +95,22 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             collar.gameObject.SetActive(true);
             dialoguePanel3.gameObject.SetActive(true);
+        }
+
+        if (other.CompareTag("Arrow1"))
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        if (other.CompareTag("Arrow2"))
+        {
+            SceneManager.LoadScene(3);
+        }
+
+        if (other.CompareTag("Arrow3"))
+        {
+            speed = 0;
+            guiltyMenu.SetActive(true);
         }
     }
 
@@ -164,6 +184,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     dialoguePanel4.gameObject.SetActive(true);
+                    arrow.SetActive(true);
                 }
             }
 

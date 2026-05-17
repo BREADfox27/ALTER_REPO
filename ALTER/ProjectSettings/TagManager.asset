@@ -16,6 +16,9 @@ TagManager:
   - SecondDialogue3
   - PlusOne
   - Collar
+  - Arrow1
+  - Arrow2
+  - Arrow3
   layers:
   - Default
   - TransparentFX
