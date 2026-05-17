@@ -111,6 +111,7 @@ public class PlayerController : MonoBehaviour
         {
             speed = 0;
             guiltyMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 

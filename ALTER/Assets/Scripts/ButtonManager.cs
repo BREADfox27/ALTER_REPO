@@ -114,11 +114,11 @@ public class ButtonManager : MonoBehaviour
 
     public void GoodEnding()
     {
-        SceneManager.LoadScene("GoodEndScene");
+        SceneManager.LoadScene("GoodEndMenu");
     }
 
     public void BadEnding()
     {
-        SceneManager.LoadScene("BadEndScene");
+        SceneManager.LoadScene("BadEndMenu");
     }
 }
