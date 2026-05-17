@@ -2274,7 +2274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147544486
@@ -2368,7 +2368,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 2084043394}
   lines:
-  - TEXT
+  - "Detective: I\u2019m done reviewing the cases. Both of them still seem suspicious.
+    Tell me, does Gertrude have any history of mental illness?"
+  - "Cop: Actually, I forgot to mention that. She\u2019s been diagnosed with bipolar
+    disorder and dissociative identity disorder."
+  - "According to the nurses, they\u2019ve identified three personalities so far:
+    her usual self, Gertrude; a rude, bratty personality named Jenny;"
+  - and a childlike, innocent one called Lily.
+  - "Detective: Well, that makes sense. Got any news on Rose\u2019s phone?"
+  - 'Cop: Yes, there was nothing out of the ordinary.'
+  - 'Detective: Ok, thanks for the update.'
+  - "Cop: No problem. We\u2019ve finally investigated all 3 cases. We didn\u2019t
+    get any conclusions yet. It\u2019s up to you to solve this."
+  - "Detective: I\u2019m ready to share my deduction.\u201D OR \u201CI\u2019m not
+    ready yet. I need to think some more."
   textSpeed: 0.05
 --- !u!114 &154297517
 MonoBehaviour:
@@ -2447,7 +2460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.062438965, y: 0}
+  m_AnchoredPosition: {x: 0.06237793, y: 0}
   m_SizeDelta: {x: -0.12506104, y: 0.222229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &165961580
@@ -3123,7 +3136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276113347
@@ -3199,7 +3212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278408685
@@ -5239,7 +5252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460673446
@@ -7291,7 +7304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &646869337
@@ -8067,7 +8080,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39000002, y: 0.5171319}
   m_AnchorMax: {x: 0.6171423, y: 0.96000004}
-  m_AnchoredPosition: {x: -2.4999695, y: 0.000015258789}
+  m_AnchoredPosition: {x: -2.4999695, y: 0}
   m_SizeDelta: {x: 1, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &702088798
@@ -9739,7 +9752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803665897
@@ -9969,7 +9982,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueScript
   dialogueText: {fileID: 1604998377}
   lines:
-  - TEXT
+  - "Detective: Hello, I\u2019m detective Hughes. Do you mind if I ask you a few
+    questions ma\u2019am?"
+  - 'Gertrude: Oh not at all sweetheart!'
+  - 'Detective: Where were you around midnight last night?'
+  - 'Gertrude: In my bedroom, mostly.'
+  - 'Detective: Mostly?'
+  - "Gertrude: I couldn\u2019t sleep, so I wandered around a bit. Old people do that,
+    you know."
+  - 'Detective: Was Walter awake?'
+  - 'Gertrude: Mhm. He was downstairs yelling at somebody on the phone.'
+  - 'Detective: Carlo?'
+  - 'Gertrude: Most likely. Have you seen a cat outside?'
+  - "Detective: \u2026No."
+  - "Gertrude: Her name\u2019s Coco. She slips out when doors are left open."
+  - 'Detective: Mrs. Gertrude, I need you to stay focused.'
+  - 'Gertrude: I am focused dear.'
+  - 'Detective: Your husband was stabbed multiple times.'
+  - "Gertrude: Such an ugly thing, don\u2019t remind me."
+  - 'Detective: Do you know why anyone would want Walter dead?'
+  - 'Gertrude: Walter was a liar.'
+  - 'Detective: How so?'
+  - "Gertrude: He\u2019s made Gertrude very sad. He kept his money secrets from her.
+    And he cheated with that bad girl. He ruined everything. They fought about this
+    yesterday."
+  - 'Detective: Uhm Gertrude? Why are you speaking in third person? Did anything
+    happen?'
+  - "Gertrude: Hahaha, you wouldn\u2019t get it."
+  - "Detective: Maybe I don\u2019t, no."
+  - "Gertrude: People take things that don\u2019t belong to them. And then act surprised
+    when somebody gets angry."
+  - 'Detective: Were you angry?'
+  - 'Gertrude: Not me.'
+  - 'Detective: Who then?'
+  - "Gertrude: \u2026Sorry?"
+  - "Detective: You said not me. Plus, you\u2019ve been acting strange."
+  - "Gertrude: Did I? My memory\u2019s been dreadful lately."
+  - 'Detective: Mrs. Gertrude, I need you to focus. Do you remember what happened
+    after the argument?'
+  - 'Gertrude: Walter went upstairs and I went to the lounge to talk.'
+  - 'Detective: To who?'
+  - 'Gertrude: Lily was upset.'
+  - "Detective: Who\u2019s Lily?"
+  - "Gertrude: She cries easily. She\u2019s so annoying."
+  - 'Detective: Mrs. Gertrude?'
+  - "Gertrude: Oh dear\u2026 I\u2019m sorry, what was the question?"
+  - 'Detective: Who is Lily?'
+  - 'Gertrude: Nobody you need to worry about.'
+  - "Detective: Ok\u2026 Did Walter know Lily?"
+  - "Gertrude: Walter didn\u2019t know how to talk to sensitive people."
+  - 'Detective: Did he hurt her?'
+  - 'Gertrude: Walter hurt everybody eventually.'
+  - 'Detective: Excuse me?'
+  - 'Gertrude: You came in here wanting me to cry and confess or something.'
+  - 'Detective: I just want the truth.'
+  - 'Gertrude: Sorry. I get a bit confused sometimes.'
+  - "Detective: It\u2019s ok ma\u2019am. I think we\u2019re done for now."
+  - "*Gertrude\u2019s profile has been added to your suspect\u2019s folder*."
   textSpeed: 0.05
 --- !u!114 &820233337
 MonoBehaviour:
@@ -12655,7 +12724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098590947
@@ -12804,7 +12873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.06125001, y: 0.06888888}
   m_AnchorMax: {x: 0.94375014, y: 0.9488889}
-  m_AnchoredPosition: {x: -1.9996338, y: -24.30008}
+  m_AnchoredPosition: {x: -1.9996338, y: -24.300049}
   m_SizeDelta: {x: -6, y: -46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129313258
@@ -13013,7 +13082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153926521
@@ -13972,7 +14041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.018773586, y: 0.16000001}
   m_AnchorMax: {x: 0.3226793, y: 0.74}
-  m_AnchoredPosition: {x: 0.2000122, y: -0.49998474}
+  m_AnchoredPosition: {x: 0.19995117, y: -0.49998474}
   m_SizeDelta: {x: -0.99993896, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220749954
@@ -15094,7 +15163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.062438965, y: 0}
+  m_AnchoredPosition: {x: 0.06237793, y: 0}
   m_SizeDelta: {x: -0.12506104, y: 0.222229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1313763499
@@ -16261,7 +16330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.07410945, y: 0.31140864}
   m_AnchorMax: {x: 0.29428646, y: 0.76556593}
-  m_AnchoredPosition: {x: -0.69989014, y: -1}
+  m_AnchoredPosition: {x: -0.6998291, y: -1}
   m_SizeDelta: {x: 6, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431570858
@@ -16393,7 +16462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1438196302
@@ -16645,7 +16714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445906837
@@ -17182,7 +17251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.062438965, y: 0}
+  m_AnchoredPosition: {x: 0.06237793, y: 0}
   m_SizeDelta: {x: -0.12506104, y: 0.222229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1476524659
@@ -17668,7 +17737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -0.015197754, y: 0.04840088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514993251
@@ -23311,7 +23380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.69000006, y: 0.5}
   m_AnchorMax: {x: 0.92142856, y: 0.97427666}
-  m_AnchoredPosition: {x: -0.99993896, y: 0.50001526}
+  m_AnchoredPosition: {x: -0.99993896, y: 0.5}
   m_SizeDelta: {x: -2, y: -6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917670201
