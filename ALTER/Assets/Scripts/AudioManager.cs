@@ -11,6 +11,8 @@ public class AudioManager : MonoBehaviour
     [Header("Audio Source References")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioSource footstepsSource;
+
     [SerializeField] private int musicToPlay;
 
     private void Awake()
@@ -23,6 +25,7 @@ public class AudioManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
@@ -35,9 +38,19 @@ public class AudioManager : MonoBehaviour
     {
         if (musicIndex >= 0 && musicIndex < musicList.Length)
         {
+            // Evita reiniciar la misma música
+            if (musicSource.clip == musicList[musicIndex] && musicSource.isPlaying)
+                return;
+
             musicSource.clip = musicList[musicIndex];
+            musicSource.loop = true;
             musicSource.Play();
         }
+    }
+
+    public void ChangeMusic(int index)
+    {
+        PlayMusic(index);
     }
 
     public void PlaySFX(int sfxIndex)
@@ -45,6 +58,33 @@ public class AudioManager : MonoBehaviour
         if (sfxIndex >= 0 && sfxIndex < sfxList.Length)
         {
             sfxSource.PlayOneShot(sfxList[sfxIndex]);
+        }
+    }
+
+    public void PlayUI()
+    {
+        PlaySFX(3);
+    }
+
+    // FOOTSTEPS
+    public void PlayFootsteps(int index)
+    {
+        if (index >= 0 && index < sfxList.Length)
+        {
+            if (!footstepsSource.isPlaying)
+            {
+                footstepsSource.clip = sfxList[index];
+                footstepsSource.loop = true;
+                footstepsSource.Play();
+            }
+        }
+    }
+
+    public void StopFootsteps()
+    {
+        if (footstepsSource.isPlaying)
+        {
+            footstepsSource.Stop();
         }
     }
 }

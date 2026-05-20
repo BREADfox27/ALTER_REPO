@@ -71,6 +71,16 @@ public class PlayerController : MonoBehaviour
         // Parámetro Speed para el Animator
         anim.SetFloat("Speed", dir.magnitude);
 
+        // Footsteps sound
+        if (dir.magnitude > 0.1f)
+        {
+            AudioManager.Instance.PlayFootsteps(0);
+        }
+        else
+        {
+            AudioManager.Instance.StopFootsteps();
+        }
+
         if (points == 2)
         {
             Debug.Log("You have 2 points.");
@@ -138,10 +148,13 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX(1);
+
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel5.gameObject.SetActive(true);
                     leadsButton.gameObject.SetActive(true);
                     lead.gameObject.SetActive(true);
+
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -150,10 +163,13 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX(1);
+
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel5.gameObject.SetActive(true);
                     leadsButton.gameObject.SetActive(true);
                     lead.gameObject.SetActive(true);
+
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -162,10 +178,13 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX(1);
+
                     interactiveText.gameObject.SetActive(false);
                     dialoguePanel3_1.gameObject.SetActive(true);
                     leadsButton.gameObject.SetActive(true);
                     lead.gameObject.SetActive(true);
+
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
                 }
             }
@@ -174,7 +193,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX(2);
+
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+
                     dialoguePanel1.gameObject.SetActive(true);
                     victimProfile.gameObject.SetActive(true);
                 }
@@ -201,7 +223,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX(2);
+
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+
                     dialoguePanel2.gameObject.SetActive(true);
                     suspectProfile1.gameObject.SetActive(true);
                     points++;
@@ -220,7 +245,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX(2);
+
                     hit.collider.transform.GetComponent<DeactivateObject>().Deactivate();
+                    
                     dialoguePanel3.gameObject.SetActive(true);
                     suspectProfile2.gameObject.SetActive(true);
                     points++;
