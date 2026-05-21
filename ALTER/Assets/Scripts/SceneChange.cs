@@ -50,7 +50,13 @@ public class SceneChange : MonoBehaviour
 
     public void Exit()
     {
+        Debug.Log("Salir del juego");
+
         Application.Quit();
+
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
     }
 
     void SetMusicByScene()
