@@ -71,4 +71,9 @@ public class PauseManager : MonoBehaviour
         if (settingsPanel != null)
             settingsPanel.SetActive(false);
     }
+
+    public void PlayButtonSound()
+    {   
+        AudioManager.Instance.PlayUI();
+    }
 }
