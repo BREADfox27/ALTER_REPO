@@ -2380,8 +2380,7 @@ MonoBehaviour:
   - 'Detective: Ok, thanks for the update.'
   - "Cop: No problem. We\u2019ve finally investigated all 3 cases. We didn\u2019t
     get any conclusions yet. It\u2019s up to you to solve this."
-  - "Detective: I\u2019m ready to share my deduction.\u201D OR \u201CI\u2019m not
-    ready yet. I need to think some more."
+  - "Detective: I\u2019m ready to share my deduction.\u201D"
   textSpeed: 0.05
 --- !u!114 &154297517
 MonoBehaviour:
@@ -13013,8 +13012,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xB7 Seen near park frequently.\r\n\r\n\xB7 Tried giving candy to children.\r\n\r\n\xB7
-    Claims innocence."
+  m_text: "\xB7 Age: 33.\n\n\xB7 Seen near park frequently.\r\n\r\n\xB7 Tried giving
+    candy to children.\r\n\r\n\xB7 Claims innocence."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
