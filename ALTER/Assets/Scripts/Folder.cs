@@ -3,6 +3,7 @@ using UnityEngine;
 public class Folder : MonoBehaviour
 {
     public GameObject folder;
+    public GameObject folderIcon;
     public bool isFolderActive;
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class Folder : MonoBehaviour
     public void Pause()
     {
         folder.SetActive(true);
+        folderIcon.SetActive(false);
         isFolderActive = true;
         Cursor.lockState = CursorLockMode.None;
     }
@@ -32,6 +34,7 @@ public class Folder : MonoBehaviour
     public void Resume()
     {
         folder.SetActive(false);
+        folderIcon.SetActive(true);
         isFolderActive = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
