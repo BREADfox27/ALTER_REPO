@@ -900,7 +900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.35000002, y: 0.10330559}
   m_AnchorMax: {x: 0.9414309, y: 0.81972533}
-  m_AnchoredPosition: {x: -0.05091095, y: 0.62838745}
+  m_AnchoredPosition: {x: -0.05090332, y: 0.62838745}
   m_SizeDelta: {x: 0.71009827, y: -0.65009975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123719235
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1405253181}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -2047,7 +2047,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.094286576, y: 0.14872536}
   m_AnchorMax: {x: 0.2957134, y: 0.82254946}
-  m_AnchoredPosition: {x: 0.1000061, y: -0.90180206}
+  m_AnchoredPosition: {x: 0.099975586, y: -0.90179443}
   m_SizeDelta: {x: 2.6688995, y: 0.3695984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308691865
@@ -6070,7 +6070,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1405253181}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -6427,7 +6427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4057134, y: 0.04629013}
   m_AnchorMax: {x: 0.94000006, y: 0.8794198}
-  m_AnchoredPosition: {x: 1.3218536, y: 1.0587158}
+  m_AnchoredPosition: {x: 1.3218689, y: 1.0587158}
   m_SizeDelta: {x: -0.035202026, y: 1.7236004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868578366
@@ -9169,7 +9169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.098571144, y: 0.15187044}
   m_AnchorMax: {x: 0.3371423, y: 0.8484352}
-  m_AnchoredPosition: {x: 0.3999939, y: 0}
+  m_AnchoredPosition: {x: 0.39996338, y: 0}
   m_SizeDelta: {x: -0.6703949, y: 0.029800415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321901292
@@ -12836,7 +12836,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1405253181}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -12920,7 +12920,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.057142287, y: 0.12900001}
   m_AnchorMax: {x: 0.29714435, y: 0.79688585}
-  m_AnchoredPosition: {x: 0, y: 0.147995}
+  m_AnchoredPosition: {x: 0, y: 0.14801025}
   m_SizeDelta: {x: -0.7229004, y: -1.3410034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783767807
