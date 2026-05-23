@@ -45,7 +45,14 @@ public class SceneChange : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("SceneXiaowei");
+    }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu")
     }
 
     public void Exit()
