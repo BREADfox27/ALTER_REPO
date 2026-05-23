@@ -66,4 +66,9 @@ public class UIManager : MonoBehaviour
         if (mainButtons != null)
             mainButtons.SetActive(true);
     }
+
+    public void PlayButtonSound()
+    {
+        AudioManager.Instance.PlayUI();
+    }
 }

@@ -60,6 +60,8 @@ public class PauseManager : MonoBehaviour
 
     public void OpenSettings()
     {
+        if (pausePanel != null)
+            pausePanel.SetActive(false);
         if (settingsPanel != null)
             settingsPanel.SetActive(true);
     }
@@ -68,6 +70,9 @@ public class PauseManager : MonoBehaviour
     {
         if (settingsPanel != null)
             settingsPanel.SetActive(false);
+
+        if (pausePanel != null)
+            pausePanel.SetActive(true);
     }
 
     public void PlayButtonSound()
