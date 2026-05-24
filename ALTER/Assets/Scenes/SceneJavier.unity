@@ -4718,8 +4718,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7967653, y: 1.7603521, z: 0.7438669}
-  m_Center: {x: 0.0057201385, y: -0.37467837, z: -0.033878326}
+  m_Size: {x: 0.7967653, y: 2.557293, z: 0.7438669}
+  m_Center: {x: 0.0057201385, y: 0.023791969, z: -0.033878326}
 --- !u!212 &375351016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4979,8 +4979,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.7191919, z: 1}
-  m_Center: {x: 0, y: -0.35959607, z: 0}
+  m_Size: {x: 1, y: 2.498095, z: 1}
+  m_Center: {x: 0, y: 0.02985512, z: 0}
 --- !u!212 &400463452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8599,8 +8599,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.6122047, z: 1}
-  m_Center: {x: 0, y: -0.30610245, z: 0}
+  m_Size: {x: 1, y: 2.3337145, z: 1}
+  m_Center: {x: 0, y: 0.05465259, z: 0}
 --- !u!212 &680178222
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12212,8 +12212,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7967653, y: 1.7128024, z: 0.7438669}
-  m_Center: {x: 0.0057201385, y: -0.3509034, z: -0.033878326}
+  m_Size: {x: 0.7967653, y: 2.483506, z: 0.7438669}
+  m_Center: {x: 0.0057201334, y: 0.034448404, z: -0.033878334}
 --- !u!212 &875040708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13901,8 +13901,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7967653, y: 1.5998716, z: 0.7438669}
-  m_Center: {x: 0.0057201385, y: -0.2944379, z: -0.033878326}
+  m_Size: {x: 0.7967653, y: 2.3213816, z: 0.7438669}
+  m_Center: {x: 0.0057201334, y: 0.06631702, z: -0.033878334}
 --- !u!212 &1006889673
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23647,8 +23647,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.7489108, z: 1}
-  m_Center: {x: 0, y: -0.3744554, z: 0}
+  m_Size: {x: 1, y: 2.5458512, z: 1}
+  m_Center: {x: 0, y: 0.02401483, z: 0}
 --- !u!212 &1660757484
 SpriteRenderer:
   m_ObjectHideFlags: 0
